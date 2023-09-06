@@ -1,4 +1,4 @@
-package com.acn.esercizi;
+package com.acn.hashmap.esercizi;
 
 import java.util.HashMap;
 
@@ -13,15 +13,11 @@ public class Es03 {
 		map.put(1, "Rosso");
 		map.put(2, "Blu");
 		map.put(3, "Verde");
-		mapCopy.put(6, "Arancione");
 		
-		Object map2= map.clone();
-		mapCopy=(HashMap <Integer, String>) map2;
+		mapCopy.putAll(map);
 
 		System.out.println(map);
 		System.out.println(mapCopy);
-		System.out.println(map.hashCode());
-		System.out.println(mapCopy.hashCode());
 
 	}
 

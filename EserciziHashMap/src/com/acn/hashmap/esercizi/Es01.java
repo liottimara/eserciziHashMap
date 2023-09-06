@@ -1,4 +1,4 @@
-package com.acn.esercizi;
+package com.acn.hashmap.esercizi;
 
 import java.util.HashMap;
 
@@ -14,6 +14,5 @@ public class Es01 {
 		map.put(3, "Verde");
 
 		System.out.println(map);
-
 	}
 }

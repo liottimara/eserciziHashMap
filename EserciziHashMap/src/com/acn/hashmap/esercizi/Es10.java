@@ -1,4 +1,4 @@
-package com.acn.esercizi;
+package com.acn.hashmap.esercizi;
 
 import java.util.HashMap;
 import java.util.Scanner;
